@@ -12,7 +12,7 @@ public class GuestTest {
     }
 
     @Test
-    public void getName() {
+    public void guestCanGetName() {
         assertEquals("Nugget", guest.getName());
     }
 }
